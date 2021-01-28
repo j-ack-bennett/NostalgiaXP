@@ -7,7 +7,17 @@ body {
 }
 
 .taskbar {
-    position:fixed;
-    bottom: 0.20%;
+    position: fixed;
+    bottom: 0.15%;
     right: 0.07%
 }
+
+.clippy {
+    position: fixed;
+    bottom: 5%;
+    right: 1%;
+    max-width: 15%;
+    height: auto;
+
+}
+
