@@ -43,3 +43,27 @@ body {
     bottom: 0%;
     left: 0%;
 }
+
+.bin {
+    max-width: 4%;
+    height: auto;
+    padding: 15px;
+}
+
+.notepad {
+    max-width: 3%;
+    height: auto;
+    padding: 15px;
+}
+
+.search {
+    max-width: 3%;
+    height: auto;
+    padding: 15px;
+}
+
+.settings {
+    max-width: 3%;
+    height: auto;
+    padding: 15px;
+}
