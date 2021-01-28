@@ -1,5 +1,4 @@
 import React from 'react'
-import Sound from 'react-sound'
 import dialup from '../../server/public/aol.mp3'
 
 // class Sounds extends Component {

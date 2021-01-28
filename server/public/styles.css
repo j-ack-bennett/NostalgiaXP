@@ -11,3 +11,11 @@ body {
     bottom: 0.20%;
     right: 0.07%
 }
+
+.object {
+    width: 25px;
+    height: 25px;
+    position: fixed;
+    bottom: 0.80%;
+    right: 2.8%
+}
