@@ -7,5 +7,7 @@ body {
 }
 
 .taskbar {
-    justify-content: center;
+    position:fixed;
+    bottom: 0.20%;
+    right: 0.07%
 }
