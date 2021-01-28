@@ -28,32 +28,18 @@ body {
     align-content: flex-start;
 }
 
-.bin {
-    max-width: 4%;
-    height: 50px;
-    /* width: auto; */
-    padding: 15px
+.dialup {
+    width: 25px;
+    height: 25px;
+    position: fixed;
+    bottom: 0.80%;
+    right: 2.8%
 }
 
-.notepad {
-    max-width: 3%;
-    height: 50px;
-    /* width: auto; */
-    padding: 15px
+.startup {
+    width: 90px;
+    height: 30px;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
 }
-
-.search {
-    max-width: 3%;
-    height: 50px;
-    /* width: auto; */
-    padding: 15px
-}
-
-.settings {
-    max-width: 3%;
-    height: 50px;
-    /* width: auto; */
-    padding: 15px
-}
-
-
