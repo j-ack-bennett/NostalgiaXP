@@ -1,6 +1,6 @@
 import React from 'react'
 import Sound from 'react-sound'
-import dialup from './dialup.mp3'
+import dialup from '../../server/public/aol.mp3'
 
 // class Sounds extends Component {
 // 	render() {
@@ -39,9 +39,9 @@ function SoundFile() {
   }
 
   return (
-    < div >
+    <div>
       <button onClick={start}>Play</button>
-    </div >
+    </div>
   );
 }
 
