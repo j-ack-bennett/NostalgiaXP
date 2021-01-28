@@ -28,3 +28,18 @@ body {
     align-content: space-around;
 }
 
+.dialup {
+    width: 25px;
+    height: 25px;
+    position: fixed;
+    bottom: 0.80%;
+    right: 2.8%
+}
+
+.startup {
+    width: 90px;
+    height: 30px;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+}
