@@ -25,6 +25,35 @@ body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column; 
-    align-content: space-around;
+    align-content: flex-start;
 }
+
+.bin {
+    max-width: 4%;
+    height: 50px;
+    /* width: auto; */
+    padding: 15px
+}
+
+.notepad {
+    max-width: 3%;
+    height: 50px;
+    /* width: auto; */
+    padding: 15px
+}
+
+.search {
+    max-width: 3%;
+    height: 50px;
+    /* width: auto; */
+    padding: 15px
+}
+
+.settings {
+    max-width: 3%;
+    height: 50px;
+    /* width: auto; */
+    padding: 15px
+}
+
 
