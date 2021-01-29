@@ -59,13 +59,13 @@ body {
 .dialup {
     width: 25px;
     height: 25px;
-    right: 2.8%
+    right: 40px;
 }
 
 .msn {
     width: 25px;
     height: 25px;
-    right: 3.3%
+    right: 62px;
 }
 
 a {
@@ -76,37 +76,37 @@ a {
 .link {
     width: 25px;
     height: 25px;
-    left: 7.5%
+    left: 146px;
 }
 
 .startup {
-    width: 90px;
+    width: 98px;
     height: 30px;
-    left: 0%;
+    left: 2px;
 }
 
 .exclamation {
     width: 25px;
     height: 25px;
-    left: 10%;
+    left: 195px;
 }
 
 .nineFive {
-    width: 140px;
+    width: 133px;
     height: 30px;
-    left: 12.5%;
+    left: 235px;
 }
 
 .chimes {
     width: 25px;
     height: 25px;
-    right: 4%;
+    right: 80px;
 }
 
 .aol {
     width: 25px;
     height: 25px;
-    right: 5.5%;
+    right: 99px;
 }
 
 .chord {
