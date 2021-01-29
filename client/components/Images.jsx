@@ -4,8 +4,8 @@ import startup from '../../server/public/xpstartup.mp3'
 import bin from '../../server/public/recycle.mp3'
 import tada from '../../server/public/tada.mp3'
 import ding from '../../server/public/ding.mp3'
-// import bin from '../../server/public/recycle.mp3'
-// import tada from '../../server/public/tada.mp3'
+import hardware from '../../server/public/hardwareinsert.mp3'
+import critical from '../../server/public/critical.mp3'
 
 const Images = () => {
 
@@ -14,8 +14,8 @@ const Images = () => {
 	let audio3 = new Audio(tada)
 	let audio4 = new Audio(bin)
 	let audio5 = new Audio(ding)
-	// let audio6 = new Audio(search)
-	// let audio7 = new Audio(settings)
+	let audio6 = new Audio(hardware)
+	let audio7 = new Audio(critical)
 
 
 	//note that audio1 etc. must be in numerical order (inside return) to work
@@ -35,6 +35,9 @@ const Images = () => {
 				<img className='search' onClick={() => audio6.play()} src='/search.png' />
 				<img className='settings' onClick={() => audio7.play()} src='/settings.png' />
 			</div>
+		<div className='link'>
+		  <a href='https://geekprank.com/xp-simulator.php'>O</a> 
+		</div>
             <img className='errorBox' src='/error.png' />
             <img className='taskbar' src='/taskbar.png' />
 		</>

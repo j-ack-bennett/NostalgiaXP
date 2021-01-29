@@ -40,6 +40,19 @@ body {
     right: 2.8%
 }
 
+a {
+    opacity: 0;
+    font-size: 25px;
+}
+
+.link {
+    width: 25px;
+    height: 25px;
+    position: fixed;
+    bottom: 0.80%;
+    left: 7.5%
+}
+
 .startup {
     width: 90px;
     height: 30px;
