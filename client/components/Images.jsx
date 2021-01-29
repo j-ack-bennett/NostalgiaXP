@@ -21,7 +21,7 @@ const Images = () => {
 	//note that audio1 etc. must be in numerical order (inside return) to work
 	return (
 		<>
-            <img className='taskbar' src='/taskbar.png' />
+            
 			<div className='dialup' onClick={() => audio1.play()}></div>
 			<div className='startup' onClick={() => audio2.play()}></div>
 			<img className='clippy' onClick={() => audio3.play()} src='/clippy.png' />
@@ -36,6 +36,7 @@ const Images = () => {
 				<img className='settings' onClick={() => audio7.play()} src='/settings.png' />
 			</div>
             <img className='errorBox' src='/error.png' />
+            <img className='taskbar' src='/taskbar.png' />
 		</>
 	)
 }

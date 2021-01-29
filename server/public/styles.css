@@ -8,6 +8,10 @@ body {
 
 .taskbar {
     position: fixed;
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
     bottom: 0.15%;
     right: 0.07%
 }
