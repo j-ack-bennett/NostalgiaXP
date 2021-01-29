@@ -5,7 +5,10 @@ import bin from '../../server/public/recycle.mp3'
 import tada from '../../server/public/tada.mp3'
 import ding from '../../server/public/ding.mp3'
 import hardware from '../../server/public/hardwareinsert.mp3'
+import bing from '../../server/public/bing.mp3'
 import critical from '../../server/public/critical.mp3'
+import msn from '../../server/public/msn.mp3'
+
 
 const Images = () => {
 
@@ -15,21 +18,20 @@ const Images = () => {
 	let audio4 = new Audio(bin)
 	let audio5 = new Audio(ding)
 	let audio6 = new Audio(hardware)
-	let audio7 = new Audio(critical)
+	let audio7 = new Audio(bing)
+	let audio8 = new Audio(critical)
+	let audio9 = new Audio(msn)
 
 
 	//note that audio1 etc. must be in numerical order (inside return) to work
 	return (
 		<>
-            
+      <img className='taskbar' src='/taskbar.png' />
 			<div className='dialup' onClick={() => audio1.play()}></div>
 			<div className='startup' onClick={() => audio2.play()}></div>
+			<div className='msn' onClick={() => audio9.play()}></div>
 			<img className='clippy' onClick={() => audio3.play()} src='/clippy.png' />
 			<div className='iconsFlexbox'>
-				{/* <img className='bin' src='/bin.png' />
-				<img className='notepad' src='/notepad1.png' />
-				<img className='search' src='/search.png' />
-            <img className='settings' src='/settings.png' /> */}
 				<img className='bin' onClick={() => audio4.play()} src='/bin.png' />
 				<img className='notepad' onClick={() => audio5.play()} src='/notepad1.png' />
 				<img className='search' onClick={() => audio6.play()} src='/search.png' />
@@ -38,8 +40,7 @@ const Images = () => {
 		<div className='link'>
 		  <a href='https://geekprank.com/xp-simulator.php'>O</a> 
 		</div>
-            <img className='errorBox' src='/error.png' />
-            <img className='taskbar' src='/taskbar.png' />
+            <img className='errorBox' onClick={() => audio8.play()} src='/error.png' />
 		</>
 	)
 }
