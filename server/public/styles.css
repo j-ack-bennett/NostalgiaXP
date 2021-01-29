@@ -36,6 +36,14 @@ body {
     right: 2.8%
 }
 
+.msn {
+    width: 25px;
+    height: 25px;
+    position: fixed;
+    bottom: 0.80%;
+    right: 3.3%
+}
+
 a {
     opacity: 0;
     font-size: 25px;
