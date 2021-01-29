@@ -25,7 +25,6 @@ const Images = () => {
 			<div className='iconsFlexbox'>
 				<img className='bin' src='/bin.png' />
 				<img className='notepad' src='/notepad1.png' />
-				{/* <img className='phone' src='/phone.png' /> */}
 				<img className='search' src='/search.png' />
 				<img className='settings' src='/settings.png' />
 			</div>

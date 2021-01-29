@@ -46,24 +46,32 @@ body {
 
 .bin {
     max-width: 4%;
-    height: auto;
-    padding: 15px;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    max-height: 5%;
 }
 
 .notepad {
-    max-width: 3%;
-    height: auto;
-    padding: 15px;
+    max-width: 1.7%;
+    height: fit-content;
+    width: fit-content;
+    max-height: 5%;
+    padding: 10px;
 }
 
 .search {
     max-width: 3%;
-    height: auto;
-    padding: 15px;
+    height: fit-content;
+    width: fit-content;
+    max-height: 5%;
+    padding: 10px;
 }
 
 .settings {
     max-width: 3%;
-    height: auto;
-    padding: 15px;
+    height: fit-content;
+    width: fit-content;
+    max-height: 5%;
+    padding: 10px;
 }
