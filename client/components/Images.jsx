@@ -21,11 +21,15 @@ const Images = () => {
 	//note that audio1 etc. must be in numerical order (inside return) to work
 	return (
 		<>
-			<img className='taskbar' src='/taskbar.png' />
+            <img className='taskbar' src='/taskbar.png' />
 			<div className='dialup' onClick={() => audio1.play()}></div>
 			<div className='startup' onClick={() => audio2.play()}></div>
 			<img className='clippy' onClick={() => audio3.play()} src='/clippy.png' />
 			<div className='iconsFlexbox'>
+				{/* <img className='bin' src='/bin.png' />
+				<img className='notepad' src='/notepad1.png' />
+				<img className='search' src='/search.png' />
+            <img className='settings' src='/settings.png' /> */}
 				<img className='bin' onClick={() => audio4.play()} src='/bin.png' />
 				<img className='notepad' onClick={() => audio5.play()} src='/notepad1.png' />
 				<img className='search' onClick={() => audio6.play()} src='/search.png' />
@@ -34,6 +38,7 @@ const Images = () => {
 		<div className='link'>
 		  <a href='https://geekprank.com/xp-simulator.php'>O</a> 
 		</div>
+            <img className='errorBox' src='/error.png' />
 		</>
 	)
 }
