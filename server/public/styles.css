@@ -12,8 +12,26 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; */
-    bottom: 0.15%;
-    right: 0.07%
+    height: 35px;
+    width: 100%;
+    background: url('./taskbar.png') no-repeat top left;
+    bottom: 0;
+    right: 0;
+}
+
+
+.system-tray {
+    position: fixed;
+    height: 35px;
+    width: 130px;
+    background: url('./taskbar.png') no-repeat top right;
+    bottom: 0;
+    right: 0;
+}
+
+.taskbar > div {
+    position: fixed;
+    bottom: 0;
 }
 
 .clippy {
@@ -32,19 +50,21 @@ body {
     align-content: flex-start;
 }
 
+.icon {
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+}
+
 .dialup {
     width: 25px;
     height: 25px;
-    position: fixed;
-    bottom: 0.80%;
     right: 2.8%
 }
 
 .msn {
     width: 25px;
     height: 25px;
-    position: fixed;
-    bottom: 0.80%;
     right: 3.3%
 }
 
@@ -56,89 +76,43 @@ a {
 .link {
     width: 25px;
     height: 25px;
-    position: fixed;
-    bottom: 0.80%;
     left: 7.5%
 }
 
 .startup {
     width: 90px;
     height: 30px;
-    position: fixed;
-    bottom: 0%;
     left: 0%;
 }
 
 .exclamation {
     width: 25px;
     height: 25px;
-    position: fixed;
-    bottom: 0%;
     left: 10%;
 }
 
 .nineFive {
     width: 140px;
     height: 30px;
-    position: fixed;
-    bottom: 0%;
     left: 12.5%;
 }
 
 .chimes {
     width: 25px;
     height: 25px;
-    position: fixed;
-    bottom: 0%;
     right: 4%;
 }
 
 .aol {
     width: 25px;
     height: 25px;
-    position: fixed;
-    bottom: 0%;
     right: 5.5%;
 }
 
 .chord {
-    width: 140px;
+    width: 133px;
     height: 30px;
-    position: fixed;
-    bottom: 0%;
-    left: 33%;
-}
-
-.bin {
-    max-width: 4%;
-    height: fit-content;
-    width: fit-content;
-    padding: 10px;
-    max-height: 5%;
-}
-
-.notepad {
-    max-width: 1.7%;
-    height: fit-content;
-    width: fit-content;
-    max-height: 5%;
-    padding: 10px;
-}
-
-.search {
-    max-width: 3%;
-    height: fit-content;
-    width: fit-content;
-    max-height: 5%;
-    padding: 10px;
-}
-
-.settings {
-    max-width: 3%;
-    height: fit-content;
-    width: fit-content;
-    max-height: 5%;
-    padding: 10px;
+    left: 638px;
 }
 
 .errorBox {
