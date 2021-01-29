@@ -75,3 +75,12 @@ body {
     max-height: 5%;
     padding: 10px;
 }
+
+.errorBox {
+   resize: both;
+   height: 350px;
+   width:350px;
+   position:fixed;
+   top: 25%;
+   left: 40%;
+}
