@@ -9,7 +9,10 @@ import bing from '../../server/public/bing.mp3'
 import critical from '../../server/public/critical.mp3'
 import msn from '../../server/public/msn.mp3'
 import windows95 from '../../server/public/windows95.mp3'
-
+import chord from '../../server/public/chord.mp3'
+import exclamation from '../../server/public/exclamation.mp3'
+import chimes from '../../server/public/chimes.mp3'
+import aol from '../../server/public/aol.mp3'
 
 const Images = () => {
 
@@ -23,6 +26,10 @@ const Images = () => {
 	let audio8 = new Audio(critical)
 	let audio9 = new Audio(msn)
 	let audio10 = new Audio(windows95)
+	let audio11 = new Audio(chord)
+	let audio12 = new Audio(exclamation)
+	let audio13 = new Audio(chimes)
+	let audio14 = new Audio(aol)
 
 	//note that audio1 etc. must be in numerical order (inside return) to work
 	return (
@@ -32,6 +39,10 @@ const Images = () => {
 			<div className='startup' onClick={() => audio2.play()}></div>
 			<div className='msn' onClick={() => audio9.play()}></div>
 			<div className='nineFive' onClick={() => audio10.play()}></div>
+			<div className='chord' onClick={() => audio11.play()}></div>
+			<div className='exclamation' onClick={() => audio12.play()}></div>
+			<div className='chimes' onClick={() => audio13.play()}></div>
+			<div className='aol' onClick={() => audio14.play()}></div>
 			<img className='clippy' onClick={() => audio3.play()} src='/clippy.png' />
 			<div className='iconsFlexbox'>
 				<img className='bin' onClick={() => audio4.play()} src='/bin.png' />
